@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="probyte-from.css">
+</head>
+
+<body>
+
+    <div class="multistep-form">
+        <form id="multistepForm" enctype="multipart/form-data">
+            <!-- Step 1 -->
+            <div class="form-step active">
+                <div class="form-group">
+                    <label for="name">Name <span class="red">*</span></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email <span class="red">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number <span class="red">*</span></label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location <span class="red">*</span></label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="age">
+                </div>
+                <button type="button" class="next-step">Next</button>
+            </div>
+
+            <!-- Step 2: Education -->
+            <div class="form-step">
+                <h3>Education</h3>
+                <div id="educationWrapper">
+                    <!-- Education fields will be dynamically added here -->
+                </div>
+                <button type="button" class="add-education">+ Add Education</button>
+                <div class="step-navigation">
+                    <button type="button" class="prev-step">Back</button>
+                    <button type="button" class="next-step">Next</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Work Experience -->
+            <div class="form-step">
+                <h3>Work Experience</h3>
+                <div id="workExperienceWrapper">
+                    <!-- Work Experience fields will be dynamically added here -->
+                </div>
+                <button type="button" class="add-work-experience">+ Add Work Experience</button>
+                <div class="step-navigation">
+                    <button type="button" class="prev-step">Back</button>
+                    <button type="button" class="next-step">Next</button>
+                </div>
+            </div>
+
+
+            <!-- Step 4 -->
+            <div class="form-step">
+                <h3>Review Your Details</h3>
+                
+                <!-- Personal Details -->
+                <h4>Personal Details</h4>
+                <p><strong>Name:</strong> <span id="reviewName"></span></p>
+                <p><strong>Email:</strong> <span id="reviewEmail"></span></p>
+                <p><strong>Phone:</strong> <span id="reviewPhone"></span></p>
+                <p><strong>Location:</strong> <span id="reviewLocation"></span></p>
+                <p><strong>Age:</strong> <span id="reviewAge"></span></p>
+                
+                <!-- Education Details -->
+                <h4>Education</h4>
+                <div id="reviewEducation"></div>
+                
+                <!-- Work Experience Details -->
+                <h4>Work Experience</h4>
+                <div id="reviewWorkExperience"></div>
+                <p><strong>Resume:</strong> <span id="reviewResume"></span></p>
+                
+                <button type="button" class="prev-step">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="probyte-for.js"></script>
+    <link rel="stylesheet" href="probytes.php">
+</body>
+
+</html>

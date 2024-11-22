@@ -1,0 +1,128 @@
+.multistep-form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.red {
+    color: red;
+}
+
+
+
+
+.add-education {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-education:hover {
+    background-color: #218838;
+}
+
+.step-navigation button {
+    margin-right: 10px;
+}
+
+.education-group {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.education-group .remove-education {
+    float: right;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.education-group .remove-education:hover {
+    background-color: #c82333;
+}
+
+
+.add-work-experience {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-work-experience:hover {
+    background-color: #0056b3;
+}
+
+.work-experience-group {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.work-experience-group .remove-work-experience {
+    float: right;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.work-experience-group .remove-work-experience:hover {
+    background-color: #c82333;
+}
